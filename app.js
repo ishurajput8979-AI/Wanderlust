@@ -38,7 +38,7 @@ main().then(()=>{
 
 async function main() {
     await mongoose.connect(dbUrl, {
-        family: 6
+        family: 4
     });
 }
 app.set('view engine', 'ejs')
